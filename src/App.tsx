@@ -1,25 +1,61 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {useState, useEffect}  from 'react'
+import * as C from './App.style';
+import * as Photos from './services/photos'
+import { Photo} from './types/Photo'
+import {PhotoItem} from './components/PhotoItem'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const App = () => {
+
+  const[loading, setLoading] = useState(false);
+  const[photos, setPhotos] = useState<Photo[]>([]);
+
+  useEffect(() => {
+    const getPhotos = async () => {
+      setLoading(true);
+      setPhotos(await Photos.getAll());
+      setLoading(false);
+    }
+    getPhotos();
+  }, []);
+
+  return(
+    <C.Container>
+      <C.Area>
+        <C.Header> Galeria de Fotos </C.Header>
+
+        {/*Área de Upload*/}
+
+        {/*Lista de Fotos*/}
+        {loading &&
+          <C.ScreenWarning>
+
+            <div className= 'emoji'>✋</div>
+            <div>Carregando ... </div>
+
+          </C.ScreenWarning>
+        }
+
+        {!loading && photos.length > 0 &&
+          <C.PhotosList>
+
+            {photos.map((item, index) => (
+              <PhotoItem key= {index} url= {item.url} name= {item.name}/>
+            ))}
+
+          </C.PhotosList>
+        }
+
+        {!loading && photos.length === 0 &&
+          <C.ScreenWarning>
+
+            <div className= 'emoji'>📂</div>
+            <div>Não há fotos cadastradas. </div>
+
+        </C.ScreenWarning>
+        }
+
+      </C.Area>
+    </C.Container>
   );
 }
 
