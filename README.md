@@ -1,4 +1,4 @@
-# <p align="center">To-Do List</p>
+# <p align="center">Galeria de Fotos</p>
 <p align="center"> Esse projeto é uma galeria de fotos que desenvolvi para estudo de alguns conceitos de design e Front-End</p>
 <p align="center">
   <a href="#movie_camera-gifs">Gif's</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
