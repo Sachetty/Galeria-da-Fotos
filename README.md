@@ -36,7 +36,7 @@ Para o rodar o projeto, siga os passos a baixo
 
 1 - Clonar o repositório
 ```
-git clone https://github.com/Sachetty/Netflix-Clone.git
+git clone https://github.com/Sachetty/Galeria-da-Fotos.git
 ```
 
 2 - Instalar as dependências
