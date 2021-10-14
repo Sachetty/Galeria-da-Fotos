@@ -19,6 +19,7 @@
   <img src="https://media.giphy.com/media/IiqbYWVeayfjM5aqLl/giphy.gif"  title="Tela inicial">
   <img src="https://media.giphy.com/media/AU0xojL0ueOOJCTpI8/giphy.gif"  title="Tela inicial">
   <img src="https://media.giphy.com/media/3e6UcizbWWKsJpcudg/giphy.gif"  title="Tela inicial">
+  <img src=" https://media.giphy.com/media/Be8JMbU1RtsuvnBjJe/giphy.gif"  title="Tela inicial">
 </p>
 
 # :hammer_and_pick: Tecnologias utilizadas 
