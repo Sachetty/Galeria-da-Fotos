@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# <p align="center">To-Do List</p>
+<p align="center"> Esse projeto é uma lista de tarefas que desenvolvi para estudo de alguns conceitos de design e Front-End</p>
+<p align="center">
+  <a href="#movie_camera-gifs">Gif's</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#hammer_and_pick-tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#warning-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-rodando-o-projeto">Rodando o projeto</a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+<p>
+  <img src="https://cdn.discordapp.com/attachments/423654796851937304/898020906121707520/unknown.png" />
+</p>
 
-In the project directory, you can run:
+# :movie_camera: Gif's
 
-### `yarn start`
+<p align="center">
+  <img src="https://media.giphy.com/media/IiqbYWVeayfjM5aqLl/giphy.gif"  title="Tela inicial">
+  <img src="https://media.giphy.com/media/AU0xojL0ueOOJCTpI8/giphy.gif"  title="Tela inicial">
+  <img src="https://media.giphy.com/media/3e6UcizbWWKsJpcudg/giphy.gif"  title="Tela inicial">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# :hammer_and_pick: Tecnologias utilizadas 
+- [ReactJS](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled-Components](https://styled-components.com/) 
+- [FireBase](https://firebase.google.com/?hl=pt)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+# :warning: Pré-Requisitos
+Antes de rodar o projeto, é necessário que você tenha instalado na sua máquina o [NodeJS](https://nodejs.org/en/) e o [Git](https://git-scm.com/downloads). Para a melhor visualização dos códigos, é recomendável a utilização do [Visual Studio Code](https://code.visualstudio.com/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :gear: Rodando o projeto
+Para o rodar o projeto, siga os passos a baixo
 
-### `yarn build`
+1 - Clonar o repositório
+```
+git clone https://github.com/Sachetty/Netflix-Clone.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2 - Instalar as dependências
+```
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+3 - Rodar o projeto
+```
+yarn start
+```
