@@ -1,5 +1,5 @@
 # <p align="center">To-Do List</p>
-<p align="center"> Esse projeto é uma lista de tarefas que desenvolvi para estudo de alguns conceitos de design e Front-End</p>
+<p align="center"> Esse projeto é uma galeria de fotos que desenvolvi para estudo de alguns conceitos de design e Front-End</p>
 <p align="center">
   <a href="#movie_camera-gifs">Gif's</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer_and_pick-tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
